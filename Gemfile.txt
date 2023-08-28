@@ -1,0 +1,15 @@
+source 'https://rubygems.org'
+
+gem 'net-ftp'
+gem 'net-sftp'
+gem 'activesupport'
+gem 'fileutils'
+gem 'rails', '6.0.0.rc1'
+gem 'nokogiri', '1.12.5'
+gem 'caxlsx'
+gem 'filewatcher', '1.1.1'
+gem 'csv'
+#gem 'data_record', '0.0.4', path: "C:\\Users\\QuiTu\\Desktop\\Merge_Program"
+#Since the gem is installed globally, we shouldn't need to install here with the bundle install to the project.  
+#That is why data_record is commented out. 
+#It's just here in the gem file for reference because we use this command to install this specifc gem: gem install "C:/Users/QuiTu/Desktop/Merge_Program/data_record-0.0.4.gem"
